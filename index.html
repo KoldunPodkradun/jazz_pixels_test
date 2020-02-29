@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jazz_pixels_test home</title>
+    <link rel="stylesheet" href="libs/flickity/flickity.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,10 +12,43 @@
 <div class="wrapper">
     <div class="container">
         <div class="slider">
+            <div class="slide slide__first">
+                <div class="slide__block">
+                    <img class="slide__img slide__img_cap" src="img/slider/cap.jpg" alt="cap">
+                    <div class="slide__txt">
+                        <div class="slide__txt__title"><span>16</span> new events</div>
+                        <a class="slide__txt__descr descr" href="map.html">Open map</a>
+                    </div>
+                </div>
+            </div>
             <div class="slide">
-                <div class="slide__txt">
-                    <div class="slide__txt__title">16 new events</div>
-                    <p class="slide__txt__descr descr">Open map</p>
+                <div class="slide__block">
+                    <p class="slide__block__descr slide__block__descr_hottest txt">Hottest</p>
+                    <img class="slide__img" src="img/slider/temple_rock.jpg" alt="temple_rock">
+                    <div class="slide__txt">
+                        <div class="slide__txt__title">Temple rock</div>
+                        <p class="slide__txt__descr descr">Show details</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__block">
+                    <p class="slide__block__descr slide__block__descr_nearest txt">Nearest</p>
+                    <img class="slide__img" src="img/slider/drop_the_beat_3.jpg" alt="drop_the_beat_3">
+                    <div class="slide__txt">
+                        <div class="slide__txt__title">Drop the beat 3</div>
+                        <p class="slide__txt__descr descr">Show details</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__block">
+                    <p class="slide__block__descr slide__block__descr_tour txt">Tour</p>
+                    <img class="slide__img slide__img_cap" src="img/slider/cap.jpg" alt="cap">
+                    <div class="slide__txt">
+                        <div class="slide__txt__title">Minsk – Vilnius</div>
+                        <p class="slide__txt__descr descr">Show tour</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,7 +65,7 @@
                         <p class="descr">Cashcurt</p>
                     </div>
                 </div>
-                <div class="content__item content__item_small active">
+                <div class="content__item content__item_small content__item_active">
                     <img class="content__item__img"
                          src="img/media/small/645ar_workin_ft_10kdug.jpg"
                          alt="645ar_workin_ft_10kdug">
@@ -49,7 +83,7 @@
                         <p class="descr">48:23</p>
                     </div>
                 </div>
-                <div class="content__item content__item_big-vertical active">
+                <div class="content__item content__item_big-vertical content__item_active ">
                     <p class="event__recommends descr"><span>Bboy Event</span> recommends an event</p>
                     <div class="content__item_big-vertical__block">
                         <img class="content__item__img"
@@ -94,5 +128,8 @@
         </div>
     </div>
 </div>
+<script src="libs/flickity/flickity.pkgd.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SFCompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Heavy.eot') format('embedded-opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFCompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Heavy.otf') format('opentype'),
+    url('../fonts/SFCompactDisplay-Heavy.woff') format('woff'),
+    url('../fonts/SFCompactDisplay-Heavy.ttf') format('truetype'),
+    url('../fonts/SFCompactDisplay-Heavy.svg#SFCompactDisplay-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'SFCompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Semibold.eot') format('embedded-opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFCompactDisplay';
+    src: url('../fonts/SFCompactDisplay-Semibold.otf') format('opentype'),
+    url('../fonts/SFCompactDisplay-Semibold.woff') format('woff'),
+    url('../fonts/SFCompactDisplay-Semibold.ttf') format('truetype'),
+    url('../fonts/SFCompactDisplay-Semibold.svg#SFCompactDisplay-Semibold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+

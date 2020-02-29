@@ -4,52 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>jazz_pixels_test map</title>
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="wrapper">
     <div class="container">
-        <div class="content">
-            <div class="content__title-wrapp">
-                <h1 class="title_one">Feed</h1>
-            </div>
-            <div class="content__items">
-                <div class="content__item content__item_big-vertical">
-                    <img class="content__item__img"
-                         src="img/media/big_vertical/king_or_queen_of_the_circle_2018.jpg"
-                         alt="king_or_queen_of_the_circle_2018">
-                    <div class="content__item__text">
-                        <h3 class="title_media">King or queen of the circle 2018</h3>
-                        <p class="descr">13 October</p>
-                    </div>
+        <div class="map-wrapp">
+            <div id="map"></div>
+            <div id="map__feed-button"></div>
+            <div id="map__geolocation-button"></div>
+            <div id="content__map" class="content">
+                <div id="content__map__info">
+                    <h2 class="title_two">Amsterdam</h2>
+                    <p class="descr">Netherlands</p>
                 </div>
-                <div class="content__item content__item_big-vertical">
-                    <img class="content__item__img"
-                         src="img/media/big_vertical/temple_rock.jpg"
-                         alt="temple_rock">
-                    <div class="content__item__text">
-                        <h3 class="title_media">Temple rock: 5 year anniversary 2018</h3>
-                        <p class="descr">12 October</p>
+                <div class="content__items">
+                    <div class="content__item content__item_big-vertical-map new">
+                        <img class="content__item__img"
+                             src="img/media/big_vertical/king_or_queen_of_the_circle_2018.jpg"
+                             alt="king_or_queen_of_the_circle_2018">
+                        <div class="content__item__text">
+                            <h3 class="title_media">King or queen of the circle 2018</h3>
+                            <p class="descr">13 October</p>
+                        </div>
                     </div>
-                </div>
-                <div class="content__item content__item_big-vertical">
-                    <img class="content__item__img"
-                         src="img/media/big_vertical/temple_rock.jpg"
-                         alt="temple_rock">
-                    <div class="content__item__text">
-                        <h3 class="title_media">Temple rock: 5 year anniversary 2018</h3>
-                        <p class="descr">12 October</p>
+                    <div class="content__item content__item_big-vertical-map content__item_active">
+                        <img class="content__item__img"
+                             src="img/media/big_vertical/temple_rock.jpg"
+                             alt="temple_rock">
+                        <div class="content__item__text">
+                            <h3 class="title_media">Temple rock: 5 year anniversary 2018</h3>
+                            <p class="descr">12 October</p>
+                        </div>
+                    </div>
+                    <div class="content__item content__item_big-vertical-map new">
+                        <img class="content__item__img"
+                             src="img/media/big_vertical/soul_rockerz_20.jpg"
+                             alt="soul_rockerz_20">
+                        <div class="content__item__text">
+                            <h3 class="title_media">Soul Rockerz 20</h3>
+                            <p class="descr">11 October</p>
+                        </div>
+                    </div>
+                    <div class="content__item content__item_big-vertical-map new">
+                        <img class="content__item__img"
+                             src="img/media/big_vertical/rockland.jpg"
+                             alt="rockland">
+                        <div class="content__item__text">
+                            <h3 class="title_media">Rockland's 10 year hip-hop showcase</h3>
+                            <p class="descr">10 October</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer__menu">
-            <div class="footer__menu__item footer__menu__item_feeds active"></div>
+            <a class="footer__menu__item footer__menu__item_feeds active" href="index.html"></a>
             <div class="footer__menu__item footer__menu__item_events"></div>
             <div class="footer__menu__item footer__menu__item_search"></div>
             <div class="footer__menu__item footer__menu__item_profile"></div>
         </div>
     </div>
 </div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB7wyzKXlxfPef5zodhUZxfyqlYRPlrbs"
+        type="text/javascript"></script>
+<script src="js/map.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
