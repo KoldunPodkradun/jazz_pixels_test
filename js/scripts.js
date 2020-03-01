@@ -3,6 +3,7 @@ let content_item_active = document.querySelectorAll('.content__item_active'),
     content_map__info = document.getElementById('content__map__info'),
     content__map = document.getElementById('content__map');
 
+
 if (content_item_active) {
     content_item_active.forEach((item) => {
         item.addEventListener('click', toggleFoo)

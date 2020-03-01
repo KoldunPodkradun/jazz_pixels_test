@@ -1,36 +1,55 @@
 @font-face {
     font-family: 'SFCompactDisplay';
-    src: url('../fonts/SFCompactDisplay-Heavy.eot') format('embedded-opentype');
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Heavy.eot') format('embedded-opentype');
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Heavy.otf') format('opentype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Heavy.woff') format('woff'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Heavy.ttf') format('truetype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Heavy.svg#SFCompactDisplay-Heavy') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SFCompactDisplay';
-    src: url('../fonts/SFCompactDisplay-Heavy.otf') format('opentype'),
-    url('../fonts/SFCompactDisplay-Heavy.woff') format('woff'),
-    url('../fonts/SFCompactDisplay-Heavy.ttf') format('truetype'),
-    url('../fonts/SFCompactDisplay-Heavy.svg#SFCompactDisplay-Heavy') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'SFCompactDisplay';
-    src: url('../fonts/SFCompactDisplay-Semibold.eot') format('embedded-opentype');
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Semibold.eot') format('embedded-opentype');
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Semibold.otf') format('opentype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Semibold.woff') format('woff'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Semibold.ttf') format('truetype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Semibold.svg#SFCompactDisplay-Semibold') format('svg');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'SFCompactDisplay';
-    src: url('../fonts/SFCompactDisplay-Semibold.otf') format('opentype'),
-    url('../fonts/SFCompactDisplay-Semibold.woff') format('woff'),
-    url('../fonts/SFCompactDisplay-Semibold.ttf') format('truetype'),
-    url('../fonts/SFCompactDisplay-Semibold.svg#SFCompactDisplay-Semibold') format('svg');
-    font-weight: 700;
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Regular.eot') format('embedded-opentype');
+    src: url('../fonts/SFCompactDisplay/SFCompactDisplay-Regular.otf') format('opentype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Regular.woff') format('woff'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Regular.ttf') format('truetype'),
+    url('../fonts/SFCompactDisplay/SFCompactDisplay-Regular.svg#SFCompactDisplay-Regular') format('svg');
+    font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Uni Neue';
+    src: url('../fonts/UniNeueHeavy/UniNeueHeavy.eot');
+    src: local('Uni Neue Heavy'), local('UniNeueHeavy'),
+    url('../fonts/UniNeueHeavy/UniNeueHeavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/UniNeueHeavy/UniNeueHeavy.woff2') format('woff2'),
+    url('../fonts/UniNeueHeavy/UniNeueHeavy.woff') format('woff'),
+    url('../fonts/UniNeueHeavy/UniNeueHeavy.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('../fonts/CeraCompactPro/CeraPro-Bold.eot');
+    src: local('Cera Pro Bold'), local('CeraPro-Bold'),
+    url('../fonts/CeraCompactPro/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CeraCompactPro/CeraPro-Bold.woff') format('woff'),
+    url('../fonts/CeraCompactPro/CeraPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
